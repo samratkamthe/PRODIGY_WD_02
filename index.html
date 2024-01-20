@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>StopWatch</title>
+</head>
+
+<body>
+    
+    
+    <div class="watch">
+        <div id="lapp">
+            <div class="head"><h2>Laps</h2></div>
+            
+            <div id="total">
+                
+    
+    
+                <!-- <div id="fr"></div> -->
+            </div>
+        
+        </div>
+       
+        <div class="inside">
+            <div class="des">
+            <div class="init">
+            <h1>STOP WATCH </h1>
+        </div>
+    </div>
+        </div>
+        <div class="hollow">
+            <div id="h" class="nami">
+                <h3>Hours</h3>
+                <div id="hours" class="elem">
+                    00
+                </div>
+            </div>
+            <div id="m" class="nami">
+                <h3>Minutes</h3>
+                <div id="minutes" class="elem">
+                    00
+
+                </div>
+            </div>
+            <div id="s" class="nami">
+                <h3>Seconds</h3>
+                <div id="seconds" class="elem">
+                    00
+
+                </div>
+            </div>
+            <div id="mi" class="nami">
+                <h3>Milliseconds</h3>
+                <div id="milli" class="elem">
+                    00
+
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button onclick="startStopwatch()" type="button"> start</button>
+            <button onclick="stopWatch()" type="button"> Stop</button>
+
+            <button id="lap" onclick="laps()"  type="button">Laps  </button>
+            <button onclick="resetStopwatch()" type="button"> Reset</button>
+
+
+
+        </div>
+
+
+    </div>
+
+ <script src="./script.js" ></script>
+</body>
+
+</html>

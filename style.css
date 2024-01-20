@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    background: center / cover no-repeat url("https://wallpapertag.com/wallpaper/full/8/5/0/154098-vertical-time-wallpaper-2000x1400-for-iphone.jpg");
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+.des{
+    background-color: #c3ab99;
+    border: 2px solid black;
+    width: 80%;
+  position: absolute;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 55px;
+    border-radius: 50%;
+
+}
+
+#lapp{
+    position: absolute;
+    /* position: sticky; */
+    left: 10px;
+    top: 150px;
+    height: 500px;
+    width: 30%;
+   border: 2px solid black;
+    background-color: #e8e4d6;
+    /* overflow: hidden; */
+    overflow-y: auto;
+    border-radius: 10px;
+
+    box-shadow: 4px 5px 10px black;
+}
+
+#lapp h2{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+   
+
+}
+.head{
+    background-color: #c3ab99;
+
+    height: 50px ;
+    width: 100%;
+    top:0px;
+    position: sticky;
+    border-bottom: 2px solid black;
+}
+
+.nw{
+    margin: 20px;
+    text-align: center;
+    color: white;
+    display: block;
+    padding:7px;
+    height: 35px;
+    width: 70%;
+    border-radius: 20px;
+   
+    background-color: black;
+    
+}
+
+
+
+.inside{
+    height:20vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom:4px solid  black; */
+   
+    /* border: 2px solid black; */
+    /* background-color: antiquewhite; */
+}
+.init{
+    border: 2px solid black;
+    width: 50%;
+    background-color: white;
+text-align: center;
+    height: 45px;
+    border-radius: 50%;
+}
+.inside h3{
+    margin: 40px;
+    font-size: 2rem;
+    font-weight: 900;
+   
+}
+.nami h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hollow{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border: 2px solid red; */
+
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:40px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 2rem;
+    border: 4px solid black;
+}
+.nami h3{
+    background-color: azure;
+    width:500%;
+    border-radius: 20px;
+}
+
+#h{
+    position: absolute;
+    top: 0px;
+}
+#m{
+    position: absolute;
+    top: 59px;
+    right:609px ;
+}
+#mi{
+    position: absolute;
+    top: 190px;
+    right:555px ;
+}
+#seconds{
+    height: 150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+#hours{
+    height: 70px;
+    width:70px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+#minutes{
+    height: 80px;
+    width:80px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+#milli{
+    height: 100px;
+    width:100px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+
+.btn{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.btn button{
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius:20px ;
+    background-color: beige;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
